@@ -1,0 +1,39 @@
+{
+  "name": "grpc-etcd-resolver",
+  "version": "0.1.0",
+  "description": "Etcd resolver for GRPC",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "rm -rf dist && tsc --build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "etcd-resolver",
+    "resolver",
+    "grpc"
+  ],
+  "github": "https://github.com/mengdu/grpc-etcd-resolver",
+  "repository": {
+    "type": "https",
+    "url": "git+https://github.com/mengdu/grpc-etcd-resolver"
+  },
+  "bugs": {
+    "url": "https://github.com/mengdu/grpc-etcd-resolver/issues"
+  },
+  "author": "lanyueos@qq.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@grpc/grpc-js": "^1.6.7",
+    "etcd3": "^1.1.0"
+  },
+  "peerDependencies": {
+    "@grpc/grpc-js": "^1.6.7",
+    "etcd3": "^1.1.0"
+  }
+}
